@@ -8,10 +8,10 @@
 #define NUM_CONTACTS 30
 /*
 	Aplikacija kontakti: implementacija dvostruko vezanim skipped listama.
-	Jedna osoba moûe imati viöe brojeva i ostalih podataka (fb, messenger, wapp, ...).
+	Jedna osoba mo≈æe imati vi≈°e brojeva i ostalih podataka (fb, messenger, wapp, ...).
 
-	Dodatno: pretraûivanje kontakata, pravljenje grupa, 
-	pravljenje veza (npr. Juri JuriÊu je Ante AntiÊ roak, ...), dodavanje favorita, ...
+	Dodatno: pretra≈æivanje kontakata, pravljenje grupa, 
+	pravljenje veza (npr. Juri Juri√¶u je Ante Anti√¶ ro√∞ak, ...), dodavanje favorita, ...
 */
 
 struct kontakt;
@@ -270,7 +270,7 @@ int IzbrisiKontakt(struct kontakt** head)
 	struct kontakt* izbrisi = PronadiKontakt(head);
 	if (izbrisi == NULL)
 	{
-		printf("\nNema se öto izbrisati!\n");
+		printf("\nNema se ≈°to izbrisati!\n");
 		return 0;
 	}
 
